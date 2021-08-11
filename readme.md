@@ -31,6 +31,7 @@ npm install
 - `SECRET`: секретное слово для генерации cookie в сессиях (от 32 символов)
 - `SECURE_COOKIE`: включение безопасных cookie (требуется https протокол)
 - `LOG`: включаем/отключаем вывод лога Fastify
+- `GOOGLE_API_KEY`: ключ api GOOGLE
 
 Например, для разработки:
 
@@ -43,6 +44,8 @@ PASSWORD=2
 SECRET=rehg08fdh08enyeyhneJG34534534hrt0tyh
 SECURE_COOKIE=false
 LOG=true
+GOOGLE_API_KEY=AIzaSyAytBKiqr32mchF0qavx5eLLQ7xgKpNKpU
+
 ```
 
 Для production:
@@ -56,6 +59,8 @@ PASSWORD=eherthb0uhg
 SECRET=775hgun5gh54ghu5gu9her9hgerhr9h7r9h7
 SECURE_COOKIE=true
 LOG=true
+GOOGLE_API_KEY=AIzaSyAytBKiqr32mchF0qavx5eLLQ7xgKpNKpU
+
 ```
 
 ### Запуск в режиме разработки
